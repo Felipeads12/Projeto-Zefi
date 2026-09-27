@@ -26,8 +26,10 @@ export default function Header() {
     <header className="sticky top-0 z-10 border-b border-ceu bg-white/95 backdrop-blur">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
         {/* Logo */}
-        <Link to="/" className="flex items-center gap-2 text-xl font-extrabold text-tinta">
-          <span aria-hidden="true">🌬️</span> Zefi
+       <Link to="/" className="flex items-center gap-2 text-tinta">
+          <span aria-hidden="true" className="text-xl">🌬️</span>
+          <span className="text-xl font-extrabold">Zefi</span>
+          <span className="hidden text-sm font-semibold text-tinta/60 sm:inline">| Soul Up</span>
         </Link>
 
         {/* Botão hambúrguer (só no celular e tablet) */}

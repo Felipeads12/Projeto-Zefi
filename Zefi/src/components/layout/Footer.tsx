@@ -17,7 +17,7 @@ export default function Footer() {
       <div className="mx-auto flex max-w-6xl flex-col gap-6 px-4 py-8 md:flex-row md:items-center md:justify-between">
         <div>
           <p className="text-lg font-extrabold">🌬️ Zefi</p>
-          <p className="text-sm text-white/70">Pequenas atitudes fazem grandes ventos.</p>
+          <p className="text-sm text-white/70">O avatar inteligente do Soul Up, por Prospera.</p>
         </div>
 
         <nav aria-label="Links do rodapé">
